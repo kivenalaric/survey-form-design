@@ -10,8 +10,7 @@ url(girl/img_girl.jpg);
 }
 h3 {
     font-weight: 300;
-    line-height: 0.60cm;
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 500px;
     display: inline-block;
     font-family: 'Courier New', Courier, monospace;
@@ -47,21 +46,23 @@ form{
     padding: 15px;
     align-content: center;
 }
+
 .form-get{
     display: block;
-    width: 100%;
-    height: auto;
-    padding: 4px 0;
+    width: 660px;
+    height: 40px;
     color: rgb(15, 10, 19);
     background-color: #fff;
     border: 2px solid rgb(54, 52, 52);
-    border-radius: 2%;
+    border-radius: 7px;
+    text-align: ;
 }
 .radio{
     display: inline-block;
     margin-right: 2%;
     min-height: 2px;
     min-width: 2px;
+    margin: auto;
 
 }
 .checkbox{
@@ -69,19 +70,22 @@ form{
     margin-right: 2%;
     min-height: 2px;
     min-width: 2px;
+    margin: auto;
 
 }
 
 .textarea{
-    height: 75px;
-    width: 600px;
-    padding: auto;
-    resize: vertical;
+    height: 100px;
+    width: 650px;
+    margin-left: 5px;
+    border-radius: 2px;
+    
 }
 .submit-button{
-    display: block;
-    width: 100%;
-    background: green;
+    background: rgb(46, 190, 135);
+    margin-left: 10px;
     color: #fff;
-
+    width: 650px;
+    height: 40px;
+    text-align: center;
 }
