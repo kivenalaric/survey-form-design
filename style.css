@@ -13,6 +13,7 @@ h3 {
     line-height: 0.60cm;
     font-size: 25px;
     margin-left: 500px;
+    display: inline-block;
     font-family: 'Courier New', Courier, monospace;
 }
 h5 {
@@ -20,25 +21,30 @@ h5 {
     font-size: 15px;
     color: rgb(206, 202, 202);
     margin-left: 500px;
+    display: inline-block;
 }
 
 .header {
-    margin: 10px;
+    margin: auto;
 }
 
 form{
+    display: inline-block;
     background-color: rgba(31, 18, 48, 0.9);
     color: #fff;
-    padding: 10px;
+    padding: auto;
     border: rgb(17, 17, 17);
     border-radius: 8px;
     position: relative;
-    display: inline-block;
-    margin-left: 500px;
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: auto;
 }
+
 .form{
-    margin: 0 auto 1.25rem auto;
-    padding: 5px;
+    margin: auto;
+    padding: 15px;
     align-content: center;
 }
 .form-get{
@@ -68,8 +74,8 @@ form{
 
 .textarea{
     height: 75px;
-    width: 500px;
-    padding: 20px 0;
+    width: 600px;
+    padding: auto;
     resize: vertical;
 }
 .submit-button{
